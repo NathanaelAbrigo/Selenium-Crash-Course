@@ -36,10 +36,13 @@ password_input.send_keys(Keys.RETURN) #Enter key
 
 #This is to take account the loading of the website.
 try:
+    print("here")
     inventory_container = WebDriverWait(driver,10).until(EC.presence_of_element_located((By.ID,'inventory_container')))
 
-    inventory_items = inventory_container.find_elements_by_tag_name('inventory_item')
+    #getting all inventory items
+    inventory_items = inventory_container.find_elements(By.CLASS_NAME,'inventory_item')
 
+    #specific going to item name 
     for item in inventory_items:
         item_name = item.find_element(By.CLASS_NAME, 'inventory_item_name')
         print(item_name.text)
@@ -47,3 +50,6 @@ try:
     # print(inventory_container.text)
 except:
     driver.quit()
+
+
+
