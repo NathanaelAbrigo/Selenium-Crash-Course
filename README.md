@@ -10,5 +10,6 @@ via &lt; https://www.youtube.com/playlist?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqum
 Note: When running a project here, the 'tempCodeRunnerFile.py' file may show up. Here is a link to understand why it shows up and how to remove it. < https://github.com/formulahendry/vscode-code-runner/issues/305 >
 
 # Selenium IDE
-via < https://www.youtube.com/playlist?list=PLaDALgeX9grpP0CkpMqymSmGPvHNjkSIw >
-For easier time doing test cases
+The link will guide you on how to setup Selenium IDE and how to create test cases with it. 
+
+< https://www.youtube.com/playlist?list=PLaDALgeX9grpP0CkpMqymSmGPvHNjkSIw >
